@@ -1,5 +1,5 @@
 # My 15-days Training Journey
----
+--- 
 ## Day-1
 - To begin with, we all gathered in the college auditorium at 8:30 sharp with great enthusiasm, where our department faculty members explained the following
   - norms and regulations
