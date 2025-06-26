@@ -103,22 +103,75 @@
          
 
 - **Commands**
-    - **`ls`** – Lists contents of the current folder.  
+    - **`ls`** – Lists contents of the current folder.
+
+      ![](Picture1.png)
+
+      
     - **Don’t access `/` directly** – Root directory; changing things here can break the system.  
-    - **`mkdir`** – Creates a new directory.  
+    - **`mkdir`** – Creates a new directory.
+      
+      ![](mkdir.png)
+
+      
     - **`cat`** – Creates or displays file content.  
-    - **`touch`** – Creates an empty file.  
-    - **`whoami`** – Shows your current username.  
-    - **`date`** – Displays the current date and time.  
-    - **`cd`** – Changes the current directory.  
-    - **`cd -`** – Switches to the previous directory.  
-    - **`cp`** – Copies files or folders.  
-    - **`pwd`** – Prints the current directory path.  
-    - **`whereis`** – Finds the location of command’s binary, source, and manual.  
-    - **`whatis`** – Shows a short description of a command.  
-    - **`mv`** – Moves or renames files and directories.  
-    - **`rmdir`** – Removes an empty directory.  
+    - **`touch`** – Creates an empty file.
+      
+      ![](touch.png)
+
+        
+    - **`whoami`** – Shows your current username.
+      
+      ![](whoami.png)
+
+      
+    - **`date`** – Displays the current date and time.
+      
+      ![](date.png)
+
+      
+    - **`cd`** – Changes the current directory.
+      
+      ![](cd.png)
+
+      
+    - **`cd -`** – Switches to the previous directory.
+      
+      ![](cd-.png)
+
+      
+    - **`cp`** – Copies files or folders.
+      
+      ![](cp.png)
+
+      
+    - **`pwd`** – Prints the current directory path.
+      
+      ![](pwd.png)
+
+        
+    - **`whereis`** – Finds the location of command’s binary, source, and manual.
+      
+      ![](whereis.png)
+
+      
+    - **`whatis`** – Shows a short description of a command.
+      
+      ![](whatis.png)
+
+      
+    - **`mv`** – Moves or renames files and directories.
+      
+      ![](mv.png)
+
+      
+    - **`rmdir`** – Removes an empty directory.
+      
+      ![](rmdir.png)
+
+      
     - **`Ctrl + Alt + T`** – Opens the terminal directly.
+      
 
 
 
