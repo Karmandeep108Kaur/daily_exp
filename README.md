@@ -106,7 +106,7 @@
 - **Commands**
     - **`ls`** – Lists contents of the current folder.
 
-      ![](Picture1.png)
+      ![](images/Picture1.png)
 
       
     - **Don’t access `/` directly** – Root directory; changing things here can break the system.  
