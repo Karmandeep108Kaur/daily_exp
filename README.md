@@ -223,10 +223,13 @@
                        7 = Owner → read, write, execute  
                        5 = Group → read, execute  
                        5 = Others → read, execute  
-                       Used to make a file executable and readable by everyone  
-                    2. chmod 444 – read only permission to everyone  
-                    3. chmod 644 – permissions to owner only  
-                    4. chmod +x filename  
+                       Used to make a file executable and readable by everyone
+
+                  ![](images/chmod.png)
+             
+                    3. chmod 444 – read only permission to everyone  
+                    4. chmod 644 – permissions to owner only  
+                    5. chmod +x filename  
                            +x – execute the file  
                            ./filename  
                            ./ - To run a file  
@@ -236,22 +239,52 @@
 
           - `chown`  
                - Changes file owner or group.      
-                 1. chown user:group file.txt     
+                 1. chown user:group file.txt  
                     Change the owner to user       
                     Change the group to group      
                     So that other users in that group can access the file
+                    Example:
+                    - original owner = ubuntu(user)
+                      ![](images/chown3.png)
+   
+                    - ubuntu change to karman
+                       ![](images/chown1.png)
+                  
+                    - new owner = karman
+                      ![](images/chown2.png)
       
 
   - **Redirection**
-      1. i/o redirect to a file
-      2. Echo hello > day3.txt
-      3. Redirecting the message ‘hello’ to file ‘day3.txt’
-      4. Operators – ‘>’, ‘>>’, ‘<’ etc
-  - **Pipes**
-      1. Particular files in a particular folder
-      2. Types
+       - lets you change where input comes from or where output goes.
+          
+       - Output Redirection (> and >>)  
+                -	`>` : Sends output to a file (overwrites if file exists)  
+                Example: echo "Hi" > file.txt  
+                -	`>>` : Appends output to the file (doesn't overwrite)  
+                Example: echo "Bye" >> file.txt  
+                -	`echo`: can create a file when used with output redirection  
+ 
+         ![](images/redirection.png)
+  
+       - Input Redirection (<) 
+                -	`<` : Takes input from a file instead of the keyboard  
+                Example: cat < file.txt  
 
-       # to be continued.....
+  - **Pipes**
+      
+      - Pipes (|) are used to pass the output of one command as the input to another.   
+      
+      ✅ Example:      
+        -`ls | sort`   
+            -	Lists files and sorts them.  
+     
+    ![](images/pipes.png)
+      
+      ✅ Example:    
+        -`cat file.txt | grep “hello”`     
+            - cat file.txt shows the file   
+            -	grep "hello" filters lines containing "hello"   
+
 
 
 
