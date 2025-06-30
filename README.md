@@ -303,6 +303,67 @@
 
     
 
+- **File compression**  
+
+    o	Syntax : gzip filename.txt  
+    o	Compresses the file and replaces it with filename.gz -> filename.txt is deleted  
+  -> way not to delete it  
+    Use the -k flag  
+    gzip -k notes.txt   
+    notes.txt (kept)  
+    notes.txt.gz  
+    o	Uncompress the files – gunzip filename.gz  
+
+  - **Hardware**  
+      - PC maintenance and troubleshooting in – depth
+      o	Pc – hardwark
+      o	System software – installed on hardware (OS)
+      o	Application software – installed on OS (Apps)
+      o	Components of CPU
+      1.	Motherboard – printed circuit board
+      Ram slots, fan to cool processor, transistor, intel(processor), cell-cmos (shutdown still time goes, update bios), diodes, gates, internet provider (lan card, modem)
+      Intel – resistor (small size in kilo bits, intermediate memory), display adaptor(displays graphics)
+      2.	Hard disk – permanent storage, saved part deleted from ram
+      3.	RAM – after boot including operating system, volatile, not saved, clears after shutdown
+      4.	Cache – has less memory then ram, processor speed(data transfer rate) more, ram speed less, processor cycle waste 
+      	To remove the wastage
+      	To remove the mismatch between the speed of processor and ram
+      	Result given by processor
+      	Urgently required data, memory small = easy access
+      	Before ram, faster than ram (easy to fetch data)
+      5.	Power on -> instruction to rom(made by developers, ) -> boot straploader(firmware) transfer files from hard disk to ram = booting -> OS works properly and get control -> os manages all including hard disk , installations -> everything in system is in ram
+      6.	ROM – read only memory
+      7.	Comfigration of system
+      Ram, hard disk, processor speed, company, etc
+      8.	Digital versatile disk / compact disk – able to read and write
+      9.	Floppy disk – not used now (like pendrive), has magnetic film – quite vulnerable
+      10.	Power supply – power input connect, ac to dc, etc, dc – can be stored, constant, ac – fluctuations in voltage, smps unit
+      11.	Monitor 
+      12.	Modem – digital to analogue
+      13.	UPS – battery backup
+      14.	BD – blu – ray disk
+      15.	LCD – liquid crystal disk 
+      16.	Hdmi port – projector(easy)
+      17.	Vga port – projector(requires converter)
+      
+      
+      o	Rom – firmware (permanently stored in hard ware)
+      o	Peripheral – attached components
+      o	Lan – local area network
+      o	Tv turner adaptor – if want to run tv on pc
+      o	Drivers – utility software (creates environment for hardware)
+      o	Sata ports
+      o	Beep due to copper coil
+      o	Pci slots
+      o	Chipset – north and south bridge, north-communication b/w cpu ram and graphics
+      o	Cpu socket – fan above
+      o	More RAM -> more speed
+      o	Expansion slots -> pci slots
+      o	BIOS chip -> rom
+      o	CMOS chip + battery 
+      o	Cooling system
+      o	Power supply connectors
+      
 
 
 
