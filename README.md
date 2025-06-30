@@ -305,65 +305,142 @@
 
 - **File compression**  
 
-    o	Syntax : gzip filename.txt  
-    o	Compresses the file and replaces it with filename.gz -> filename.txt is deleted  
-  -> way not to delete it  
-    Use the -k flag  
-    gzip -k notes.txt   
-    notes.txt (kept)  
-    notes.txt.gz  
-    o	Uncompress the files – gunzip filename.gz  
+  - File Compression:  
+    File compression reduces file size to save space or speed up transfer.  
+
+    🔁 Lossless Compression:
+      - No data is lost.
+      - Original file can be fully restored.
+        
+    ✅ Example: `zip`, `gzip`, `PNG`, `FLAC`
+    
+    🗑️ Lossy Compression:
+      - Some data is permanently removed.
+      - Smaller size but lower quality.
+      
+    ✅ Example: `JPEG`, `MP3`, `MP4`
+
+    🗜️ `gzip`:
+       - A lossless compression tool in Linux.
+       - Compresses individual files (not folders).
+       - `gzip filename.txt`  
+         -> creates a file `filename.txt.gz`  
+         -> `filename.txt` is deleted
+         -> use `gzip -k filename.txt` to keep the original file
+          
+          ![](images/gzip.png)
+  
+     - Uncompress the files – `gunzip filename.gz`
+
+  - **Wild Cards**  
+     Wildcards are special characters used to match filenames or patterns    
+     when working in the terminal (like with ls, cp, rm, etc.).  
+ 
+      ![](images/wild.png)  
+
+      | Wildcard | Meaning                                      | Example                            |
+      |----------|----------------------------------------------|------------------------------------|
+      | `*`      | Matches **zero or more** characters          | `ls *.txt` → all `.txt` files      |
+      | `?`      | Matches **exactly one** character             | `ls file?.txt` → file1.txt, file2.txt |
+      | `[]`     | Matches **any one** character in brackets     | `ls file[1-3].txt` → file1.txt, file2.txt, file3.txt |
+    
+
 
   - **Hardware**  
-      - PC maintenance and troubleshooting in – depth
-      o	Pc – hardwark
-      o	System software – installed on hardware (OS)
-      o	Application software – installed on OS (Apps)
-      o	Components of CPU
-      1.	Motherboard – printed circuit board
-      Ram slots, fan to cool processor, transistor, intel(processor), cell-cmos (shutdown still time goes, update bios), diodes, gates, internet provider (lan card, modem)
-      Intel – resistor (small size in kilo bits, intermediate memory), display adaptor(displays graphics)
-      2.	Hard disk – permanent storage, saved part deleted from ram
-      3.	RAM – after boot including operating system, volatile, not saved, clears after shutdown
-      4.	Cache – has less memory then ram, processor speed(data transfer rate) more, ram speed less, processor cycle waste 
-      	To remove the wastage
-      	To remove the mismatch between the speed of processor and ram
-      	Result given by processor
-      	Urgently required data, memory small = easy access
-      	Before ram, faster than ram (easy to fetch data)
-      5.	Power on -> instruction to rom(made by developers, ) -> boot straploader(firmware) transfer files from hard disk to ram = booting -> OS works properly and get control -> os manages all including hard disk , installations -> everything in system is in ram
-      6.	ROM – read only memory
-      7.	Comfigration of system
-      Ram, hard disk, processor speed, company, etc
-      8.	Digital versatile disk / compact disk – able to read and write
-      9.	Floppy disk – not used now (like pendrive), has magnetic film – quite vulnerable
-      10.	Power supply – power input connect, ac to dc, etc, dc – can be stored, constant, ac – fluctuations in voltage, smps unit
-      11.	Monitor 
-      12.	Modem – digital to analogue
-      13.	UPS – battery backup
-      14.	BD – blu – ray disk
-      15.	LCD – liquid crystal disk 
-      16.	Hdmi port – projector(easy)
-      17.	Vga port – projector(requires converter)
+      ### 🖥️ A. Basic Computer Architecture
+
+      | Term                  | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **PC (Hardware)**     | Physical components of a computer.                     |
+      | **System Software**   | OS installed on hardware (e.g., Windows, Ubuntu).      |
+      | **Application Software** | Installed on OS (e.g., MS Word, Chrome, VLC).       |
       
+      ---
       
-      o	Rom – firmware (permanently stored in hard ware)
-      o	Peripheral – attached components
-      o	Lan – local area network
-      o	Tv turner adaptor – if want to run tv on pc
-      o	Drivers – utility software (creates environment for hardware)
-      o	Sata ports
-      o	Beep due to copper coil
-      o	Pci slots
-      o	Chipset – north and south bridge, north-communication b/w cpu ram and graphics
-      o	Cpu socket – fan above
-      o	More RAM -> more speed
-      o	Expansion slots -> pci slots
-      o	BIOS chip -> rom
-      o	CMOS chip + battery 
-      o	Cooling system
-      o	Power supply connectors
+      ### 🧠 B. CPU & Internal Components
       
+      | Component             | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **CPU**               | Central Processing Unit; brain of the computer.        |
+      | **Motherboard**       | Main circuit board connecting all components.          |
+      | **RAM**               | Volatile memory; data lost on shutdown.                |
+      | **ROM**               | Non-volatile memory; stores firmware.                  |
+      | **Cache**             | Very fast memory between CPU and RAM.                  |
+      | **Registers**         | Small, fast memory inside CPU for temporary data.      |
+      | **Control Unit (CU)** | Directs data flow and operations in CPU.               |
+      | **ALU**               | Performs calculations and logic.                       |
+      | **Clock**             | Synchronizes CPU operations using electrical pulses.   |
+      | **Transistors**       | Basic switching units used in processing.              |
+      | **Chipset**           | Controls communication; Northbridge and Southbridge.   |
+      | **CPU Socket**        | Slot where CPU is mounted; fan usually above it.       |
+      
+      ---
+      
+      ### 💾 C. Storage Devices
+      
+      | Component             | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **Hard Disk (HDD/SSD)** | Permanent storage for OS, apps, and files.           |
+      | **RAM**               | Temporary, fast memory used during system operation.   |
+      | **Cache**             | Small, faster memory for urgent data access.           |
+      | **Floppy Disk**       | Old magnetic storage medium (now obsolete).            |
+      | **CD/DVD**            | Optical media used to read/write data.                 |
+      | **BD (Blu-ray Disk)** | High-capacity optical disk for HD media and backups.   |
+      
+      ---
+      
+      ### ⚡ D. Power & Booting
+      
+      | Component             | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **Power Supply (SMPS)** | Converts AC to DC; supplies power to components.     |
+      | **UPS**               | Battery backup for power outages.                      |
+      | **CMOS Battery**      | Maintains BIOS settings and system time.               |
+      | **Boot Process**      | Power on → ROM → Bootstrap Loader → OS loads in RAM.   |
+      
+      ---
+      
+      ### 🖼️ E. Input/Output & Display
+      
+      | Component             | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **Monitor**           | Output device to display visuals.                      |
+      | **HDMI Port**         | High-definition video output for projectors/displays.  |
+      | **VGA Port**          | Older analog video output; needs converter for HDMI.   |
+      | **Display Adapter**   | Processes and displays graphics (GPU).                 |
+      | **TV Tuner Adapter**  | Enables TV signal input to PC.                         |
+      
+      ---
+      
+      ### 🌐 F. Networking & Communication
+      
+      | Component             | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **LAN (Local Area Network)** | Network connecting nearby computers.            |
+      | **Modem**             | Converts digital ↔ analog signals for internet.        |
+      | **LAN Card / NIC**    | Allows PC to connect to network via cable.             |
+      
+      ---
+      
+      ### 🧩 G. Other Components & Concepts
+      
+      | Component             | Definition                                             |
+      |-----------------------|--------------------------------------------------------|
+      | **Drivers**           | Software that lets OS interact with hardware.          |
+      | **BIOS Chip**         | Firmware chip that starts hardware and loads OS.       |
+      | **Peripheral Devices**| External devices like mouse, keyboard, printer, etc.   |
+      | **PCI Slots**         | Expansion slots for adding cards (e.g., sound, LAN).   |
+      | **Expansion Slots**   | Slots for adding extra hardware (graphics, TV cards).  |
+      | **SATA Ports**        | Connect HDDs and SSDs to motherboard.                  |
+      | **Beep Sound**        | POST error codes (e.g., via speaker/copper coil).      |
+      | **Cooling System**    | Fans or heat sinks to prevent overheating.             |
+      | **Configuration**     | System specs: RAM, CPU speed, storage, brand, etc.     |
+
+
+      
+
+
+
 
 
 
