@@ -283,7 +283,25 @@
       ✅ Example:    
         -`cat file.txt | grep “hello”`     
             - cat file.txt shows the file   
-            -	grep "hello" filters lines containing "hello"   
+            -	grep "hello" filters lines containing "hello"
+
+
+    - **Assignement**
+      1. To use the variables  
+
+         ![](images/var.png)
+         ![](images/var2.png)
+    
+      3. To compare  
+ 
+         ![](images/compare.png)  
+      
+      4. To print the table
+         
+         ![](images/table.png)
+         ![](images/table2.png)
+
+    
 
 
 
