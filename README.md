@@ -375,7 +375,7 @@
       | **CPU Socket**        | Slot where CPU is mounted; fan usually above it.       |
 
      **Motherboard**   
-       ![](images/motherboard.jpg)  
+       ![](images/motherboard.png)  
       
       ---
       
