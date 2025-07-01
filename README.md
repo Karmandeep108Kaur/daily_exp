@@ -543,8 +543,9 @@ if# My 15-days Training Journey
 ## 💻 BSOD (Blue Screen of Death) – In Short
 
 **What is it?**  
-A **Windows crash screen** shown when the system hits a **fatal error** and must restart, it's info is stored in `dump file stored in the same drive as OS`.
-![](images/img.png)
+A **Windows crash screen** shown when the system hits a **fatal error** and must restart, it's info is stored in `dump file stored in the same drive as OS`.  
+
+  ![](images/img.png)
 
 ---
 
