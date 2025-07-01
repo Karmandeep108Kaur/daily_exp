@@ -373,6 +373,9 @@
       | **Transistors**       | Basic switching units used in processing.              |
       | **Chipset**           | Controls communication; Northbridge and Southbridge.   |
       | **CPU Socket**        | Slot where CPU is mounted; fan usually above it.       |
+
+     **Motherboard**   
+       ![](images/motherboard.jpg)  
       
       ---
       
