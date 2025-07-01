@@ -300,9 +300,9 @@
          
          ![](images/table.png)
          ![](images/table2.png)
-
+---
     
-
+## Day-4
 - **File compression**  
 
   - File Compression:  
@@ -435,6 +435,109 @@
       | **Beep Sound**        | POST error codes (e.g., via speaker/copper coil).      |
       | **Cooling System**    | Fans or heat sinks to prevent overheating.             |
       | **Configuration**     | System specs: RAM, CPU speed, storage, brand, etc.     |
+---
+## Day-5
+- # 📘 Module 2: PC & Network Troubleshooting
+
+---
+
+## 🧩 1. PC Hardware Troubleshooting
+
+### 🔹 Boot Issues
+- No display, beep codes during startup
+- Use **F1** or **Windows + F1** for system help
+- Fewer folders on desktop (stored in C-drive)
+
+### 🔹 Diagnosing Hardware Failures
+- Components to check: **RAM**, **HDD**, **GPU**, **CPU**, **cache**, **resistors**
+- **RAM vs ROM**:
+  - **RAM**: Temporary, fast, volatile
+  - **ROM**: Permanent, stores firmware
+- **Cache**: Small, fast memory inside CPU for frequently used data
+
+### 🔹 HDD and Partitions
+- **HDD Types**: SATA, SSD, NVMe
+- **Partitioning**:
+  - **Logical Partition**: Divides storage for software/data
+  - **Extended Partition**: Contains multiple logical drives
+- **Drive Usage**:
+  - **C-drive**: Only OS
+  - **D/E drives**: Store personal/important files
+  - If C crashes, other drives are safe
+- **Defragmentation**:
+  - Fragmentation slows system
+  - Defragmentation reorganizes data to improve performance
+
+### 🔹 BIOS/UEFI & POST
+- Configure BIOS settings
+- Troubleshoot POST error codes and boot issues
+
+### 🔹 Peripheral Devices & Printing
+- Devices: Keyboard, mouse, printer
+- **Printer Troubleshooting**:
+  - Driver missing → install driver
+  - Paper stuck → remove manually
+  - Tray empty → reload paper
+  - Red light → restart printer
+  - Use print preferences to:
+    - Cancel print jobs
+    - Set priority
+  - Lines in print → **Drum problem** → replace drum
+
+### 🔹 System Performance Tips
+- Fewer desktop icons and taskbar items = faster boot
+- Avoid saving heavy files on C-drive
+- Use extended partitions for important data
+
+---
+
+## 💻 2. Software/System Troubleshooting
+
+### 🔹 Recovery & Repair
+- Use **Safe Mode**, **System Restore**, and recovery tools
+- Use GUI-based (wizard) OS installations
+- Format only **C-drive** during OS reinstall to keep personal files safe
+
+### 🔹 Antivirus & Malware
+- Mandatory if using the internet
+- Keep antivirus updated
+- Schedule regular antivirus scans
+- Malware symptoms:
+  - Slows down the system
+  - Corrupts files
+  - Creates unnecessary temp files
+- Avoid clicking on unknown or suspicious links
+
+### 🔹 Temporary Files & Cookies
+- Browsers create temp files and cookies → system slows
+- Clear cookies/cache regularly
+- Keep browser bookmarks minimal
+
+### 🔹 Drivers & Disk Tools
+- Use **Device Manager** to update/fix drivers
+- Use disk utilities:
+  - `chkdsk` for disk error checking
+  - Formatting tools to reset drives
+  - Defragmentation tools to optimize storage
+
+---
+
+## 🆘 3. Help, Updates & Windows Versions
+
+### 🔹 Help Access
+- `F1`: App-specific help
+- `Windows + F1`: Opens **Get Help** app in Windows
+
+### 🔹 Windows: Original vs Pirated
+
+| Feature                     | Original Windows                          | Pirated Windows             |
+|----------------------------|--------------------------------------------|-----------------------------|
+| Updates                    | Automatic security and feature updates     | No official updates         |
+| Delivery Optimization      | Speeds up download of updates              | Not available               |
+| Security Patches           | Regular and automatic                      | Missing                     |
+| Performance After Update   | May slow down → schedule updates           | No slowdowns, but insecure  |
+
+---
 
 
       
