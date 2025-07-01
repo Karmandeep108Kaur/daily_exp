@@ -540,6 +540,31 @@
 | Security Patches           | Regular and automatic                      | Missing                     |
 | Performance After Update   | May slow down → schedule updates           | No slowdowns, but insecure  |
 
+## 💻 BSOD (Blue Screen of Death) – In Short
+
+**What is it?**  
+A **Windows crash screen** shown when the system hits a **fatal error** and must restart.
+
+---
+
+### ⚠️ Common Causes:
+
+- Faulty hardware (RAM, HDD, etc.)
+- Driver issues
+- Corrupted system files
+- Malware or viruses
+- Overheating or overclocking
+- Bad software or updates
+
+---
+
+### 🛠️ Quick Fixes:
+
+- Restart PC  
+- Update drivers & Windows  
+- Run `sfc /scannow`  
+- Boot in Safe Mode  
+- Remove recent software/hardware
 ---
 
 
