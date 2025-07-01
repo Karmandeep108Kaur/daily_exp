@@ -1,4 +1,4 @@
-# My 15-days Training Journey
+if# My 15-days Training Journey
 --- 
 ## Day-1
 - To begin with, we all gathered in the college auditorium at 8:30 sharp with great enthusiasm, where our department faculty members explained the following
@@ -543,7 +543,7 @@
 ## 💻 BSOD (Blue Screen of Death) – In Short
 
 **What is it?**  
-A **Windows crash screen** shown when the system hits a **fatal error** and must restart.
+A **Windows crash screen** shown when the system hits a **fatal error** and must restart, it's info is stored in `dump file stored in the same drive as OS`.
 
 ---
 
