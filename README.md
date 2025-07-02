@@ -569,6 +569,63 @@ A **Windows crash screen** shown when the system hits a **fatal error** and must
 - Remove recent software/hardware
 ---
 
+## Day-6
+
+## Safe Mode
+- Loads only essential drivers and services.  
+- Used for troubleshooting and fixing system issues.  
+- **Types**:  
+  - **Safe Mode** – Basic.  
+  - **Safe Mode with Networking** – Includes internet access.  
+  - **Safe Mode with Command Prompt** – Opens command line only.
+
+## Recovery Tools
+- Built-in tools to **repair or restore** Windows.  
+- **Examples**:  
+  - System Restore  
+  - Startup Repair  
+  - System Image Recovery  
+  - Command Prompt  
+  - Reset this PC
+
+## OS Repair
+- Fixes missing/corrupt OS files.  
+- **Methods**:  
+  - `sfc /scannow` – Scans and repairs system files.  
+  - `DISM` – Fixes Windows image.  
+  - Bootable USB – Reinstall/Repair Windows.
+
+## Plugins
+- Add-ons for extra functionality or ease of use.  
+- Common in browsers, apps, and software.
+
+## Virus & Malware Symptoms
+- Slow system performance  
+- Frequent crashes  
+- Unwanted pop-ups  
+- Unknown programs installed  
+- Browser redirects
+
+## Basic Virus Removal
+1. Boot into **Safe Mode**.  
+2. Run a **full antivirus scan**.  
+3. **Uninstall** suspicious programs.  
+4. **Delete** temporary files.  
+5. **Update** antivirus and system regularly.
+
+## Where to Keep Windows Backup
+- **External Drive** – USB hard disk or SSD.  
+- **Cloud Storage** – Google Drive, OneDrive, Dropbox.  
+- **Internal Partition** – Separate from system drive (not safest).
+
+## RJ-45 (Registered Jack-45)
+
+- **Type**: Connector used for Ethernet networking  
+- **Shape**: 8-pin rectangular plug  
+- **Cable Used**: Commonly with Cat5, Cat6 Ethernet cables  
+- **Use**: Connects computers, routers, switches, etc., for LAN  
+- **Speed Support**: Up to 10 Gbps (with Cat6/6a)  
+- **Looks Like**: Slightly larger than a telephone (RJ-11) plug
 
       
 
