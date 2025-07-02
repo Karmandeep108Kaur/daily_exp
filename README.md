@@ -1,4 +1,4 @@
-if# My 15-days Training Journey
+# My 15-days Training Journey
 --- 
 ## Day-1
 - To begin with, we all gathered in the college auditorium at 8:30 sharp with great enthusiasm, where our department faculty members explained the following
@@ -627,6 +627,7 @@ A **Windows crash screen** shown when the system hits a **fatal error** and must
 - **Speed Support**: Up to 10 Gbps (with Cat6/6a)  
 - **Looks Like**: Slightly larger than a telephone (RJ-11) plug
 
+ ![](images/rj.jpg)
       
 
 
