@@ -22,6 +22,9 @@
 
 ## 📄 Structure of an HTML Document
 
+![](../images/html.png)
+
+
 ### 1. `<!DOCTYPE html>`
 - Declares HTML5 version
 - Helps browser interpret the page correctly
